@@ -1,0 +1,3 @@
+[submodule "VTS-Sharp"]
+	path = VTS-Sharp
+	url = https://github.com/Ryokune/VTS-Sharp

@@ -1,0 +1,3 @@
+[submodule "VTS-Kinect/VTS-Sharp"]
+	path = VTS-Kinect/VTS-Sharp
+	url = https://github.com/Ryokune/VTS-Sharp

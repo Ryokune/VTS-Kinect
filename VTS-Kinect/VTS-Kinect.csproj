@@ -64,22 +64,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VTS-Sharp\VTS\Core\CoreVTSPlugin.cs" />
-    <Compile Include="VTS-Sharp\VTS\Core\Implementations\ConsoleVTSLoggerImpl.cs" />
-    <Compile Include="VTS-Sharp\VTS\Core\Implementations\Newtonsoft\NewtonsoftJsonUtilityImpl.cs" />
-    <Compile Include="VTS-Sharp\VTS\Core\Implementations\TokenStorageImpl.cs" />
-    <Compile Include="VTS-Sharp\VTS\Core\Implementations\WebSocketImpl.cs" />
-    <Compile Include="VTS-Sharp\VTS\Core\Implementations\WebsocketSharp\WebSocketSharpImpl.cs" />
-    <Compile Include="VTS-Sharp\VTS\Core\Interfaces\IJsonUtility.cs" />
-    <Compile Include="VTS-Sharp\VTS\Core\Interfaces\ITokenStorage.cs" />
-    <Compile Include="VTS-Sharp\VTS\Core\Interfaces\IVTSLogger.cs" />
-    <Compile Include="VTS-Sharp\VTS\Core\Interfaces\IVTSPlugin.cs" />
-    <Compile Include="VTS-Sharp\VTS\Core\Interfaces\IVTSWebSocket.cs" />
-    <Compile Include="VTS-Sharp\VTS\Core\Interfaces\IWebSocket.cs" />
-    <Compile Include="VTS-Sharp\VTS\Core\Models\Enums\ErrorID.cs" />
-    <Compile Include="VTS-Sharp\VTS\Core\Models\Enums\HotkeyAction.cs" />
-    <Compile Include="VTS-Sharp\VTS\Core\Models\VTSData.cs" />
-    <Compile Include="VTS-Sharp\VTS\Core\VTSWebSocket.cs" />
     <Compile Include="VTSHandler.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -102,20 +86,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="VTS-Sharp\LICENSE" />
-    <None Include="VTS-Sharp\README.md" />
-    <None Include="VTS-Sharp\VTS\Core.meta" />
-    <None Include="VTS-Sharp\VTS\Unity.meta" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="VTS-Sharp\.gitignore" />
-    <Content Include="VTS-Sharp\VTS\Core\Implementations\Newtonsoft\LICENSE.txt" />
-    <Content Include="VTS-Sharp\VTS\Core\Implementations\Newtonsoft\Newtonsoft.Json.dll" />
-    <Content Include="VTS-Sharp\VTS\Core\Implementations\WebsocketSharp\LICENSE.txt" />
-    <Content Include="VTS-Sharp\VTS\Core\Implementations\WebsocketSharp\websocket-sharp.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

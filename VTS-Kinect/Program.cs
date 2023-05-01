@@ -15,7 +15,7 @@ namespace VTS_Kinect
         {
             if (!Process.GetProcessesByName("VTube Studio").Any())
             {
-                MessageBox.Show("VTUBE STUDIO IS NOT RUNNING", "BRUH");
+                MessageBox.Show("VTube Studio is not running.", "Plugin not started.");
                 Application.Exit();
                 return;
             }
